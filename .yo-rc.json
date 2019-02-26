@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterInvoiceApplication",
+    "packageName": "com.conpem.jhipster.invoice.application",
+    "packageFolder": "com/conpem/jhipster/invoice/application",
+    "serverPort": 8083,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "MTVhMjgzMDMxZjljM2ViZjNkMjg3ZWFiMmY1MzRiOWRhMGVhNzYwMjgzNjFiMTg3NTY2MjRkZmM5ZWY3MmIxYzIxNmRhZTA1Mjk2YTE1NWNmNjcyZjQ4NGI4MDMwMDgzNTZkNjIyMTUyNWNhMzA1OTc2ZWNjYTZhZTQyMjJjNDg=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "conpem",
+  "repository-name": "jhipster-invoice-application"
+}
